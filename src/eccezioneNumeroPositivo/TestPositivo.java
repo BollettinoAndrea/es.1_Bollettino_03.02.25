@@ -17,6 +17,8 @@ public class TestPositivo {
             System.out.println(e.getMessage());
         } catch (IntervalloException e) {
             System.out.println(e.getMessage());
+        } catch (NumeroEsclusoException e) {
+            System.out.println(e.getMessage());
         } catch (Exception e) {
             System.out.println("ERRORE: numero inserito non valido.");
         } finally {
