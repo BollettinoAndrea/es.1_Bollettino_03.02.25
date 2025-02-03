@@ -7,11 +7,11 @@ class NumeroPositivo {
         try {
             setNumero(numero);
         } catch (NegativeException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("ERRORE: hai inserito un numero negativo");
         } catch (IntervalloException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("ERRORE: hai inserito un numero fuori range. (0 - 30)");
         } catch (NumeroEsclusoException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("ERRORE: hai inserito un numero escluso. ( 20 )");
         }
     }
 
