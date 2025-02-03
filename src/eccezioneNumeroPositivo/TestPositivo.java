@@ -14,13 +14,13 @@ public class TestPositivo {
             System.out.println("Numero: " + numero.getNumero());
 
         } catch (NegativeException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         } catch (IntervalloException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         } catch (NumeroEsclusoException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         } catch (Exception e) {
-            System.out.println("ERRORE: numero inserito non valido.");
+            System.err.println(e.getMessage());
         } finally {
             in.close();
         }
