@@ -1,3 +1,5 @@
+package eccezioneNumeroPositivo;
+
 import java.util.Scanner;
 
 public class TestPositivo {

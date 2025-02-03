@@ -1,3 +1,5 @@
+package eccezioneNumeroPositivo;
+
 class NumeroPositivo {
     private int numero;
 
